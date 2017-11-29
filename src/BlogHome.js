@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router'
 import Butter from 'buttercms'
 
-const butter = Butter('de55d3f93789d4c5c26fb07445b680e8bca843bd');
+const butter = Butter('685621b1a5113debe947baa009a067447bb36b09');
 
 class BlogHome extends Component {
 
@@ -40,7 +40,7 @@ class BlogHome extends Component {
   render() {
     if (this.state.loaded) {
       const { next_page, previous_page } = this.state.resp.meta;
- 
+
       return (
         <div>
           {this.state.resp.data.map((post) => {

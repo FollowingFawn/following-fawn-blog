@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Butter from 'buttercms'
 import { Helmet } from "react-helmet";
 
-const butter = Butter('de55d3f93789d4c5c26fb07445b680e8bca843bd');
+const butter = Butter('685621b1a5113debe947baa009a067447bb36b09');
 
 class BlogPost extends Component {
 
